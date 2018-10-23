@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Router from './router';
 import { NavLink } from 'react-router-dom';
-import { PrivateRoute } from './components';
 
 import 'bootstrap/dist/css/bootstrap.css';
 

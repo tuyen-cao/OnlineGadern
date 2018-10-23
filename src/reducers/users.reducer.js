@@ -1,9 +1,9 @@
 /**
  * Created by tuyencaok on 10/15/2018.
  */
-import { userConstants } from '../_constants';
+import { userConstants } from '../constants/user.constants';
 
-export function users(state = {}, action) {
+function users(state = {}, action) {
   switch (action.type) {
     case userConstants.GETALL_REQUEST:
       return {
@@ -51,3 +51,4 @@ export function users(state = {}, action) {
       return state
   }
 }
+export default users;
